@@ -1,0 +1,101 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-image:url(white-background-with-blue-geometric-and-white-line-pattern-free-vector.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    
+
+ }
+
+ .container{
+    
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width:400px ;
+    height:400px ;
+   
+ }
+ .box1{
+   background-image:url(goose-blue-bottom.png) ;
+   box-shadow:5px 5px 5px 5px   ;
+   position: absolute;
+   background-repeat: no-repeat;
+  background-size:cover ;
+
+ }
+ .login {
+   top:200px ;
+   left:700px ;
+   display:inline-block ;
+    box-shadow:5px 5px  ;
+    align-self: center;
+    
+   
+    position: absolute;
+   text-align: center;
+   color:white ;
+
+}
+.login a{
+ color:red ;
+ padding:20px;
+ text-decoration:none;
+ font-size:20px ;
+
+}
+.login button{
+   background-color:rgba(156, 225, 65, 0.46);
+   color: white;
+
+}
+.login h1{
+   padding-top:50px ;
+padding-bottom:200px ;
+
+}
+.login p{
+   
+   font-size: 20px;
+}
+.login .two{
+   color:rgb(255, 255, 255) ;
+
+
+}
+.login input{
+   padding:10px ;
+   border-radius:5px ;
+
+
+}
+.login button {
+   padding:15px 10px 10px 15px ;
+   border-radius:20px ;
+
+}
+span {
+position: absolute;
+top:65.8% ;
+color:black ;
+right:104.8px ;
+font-size:30px ;
+
+
+}
+span:hover{
+   cursor: pointer;
+   color:blue ;
+
+
+}
+
+ 
